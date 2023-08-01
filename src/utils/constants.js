@@ -1,39 +1,34 @@
-import MusicNoteIcon from '@mui/icons-material/MusicNote';
-import HomeIcon from '@mui/icons-material/Home';
-import CodeIcon from '@mui/icons-material/Code';
-import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
-import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
-import LiveTvIcon from '@mui/icons-material/LiveTv';
-import SchoolIcon from '@mui/icons-material/School';
+import WhatshotIcon from '@mui/icons-material/Whatshot';
+import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
+import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
+import PaidIcon from '@mui/icons-material/Paid';
 import FaceRetouchingNaturalIcon from '@mui/icons-material/FaceRetouchingNatural';
 import CheckroomIcon from '@mui/icons-material/Checkroom';
+import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
+import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import GraphicEqIcon from '@mui/icons-material/GraphicEq';
-import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
-import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
-import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import SchoolIcon from '@mui/icons-material/School';
+import MusicNoteIcon from '@mui/icons-material/MusicNote';
+import TrendingUpIcon from '@mui/icons-material/TrendingUp';
+import NewspaperIcon from '@mui/icons-material/Newspaper';
 
-export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
+export const logo = 'https://cdn-icons-png.flaticon.com/512/1384/1384060.png';
 
 export const categories = [
-  { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery Ning', icon: <CodeIcon />, },
-  { name: 'LTT', icon: <DeveloperModeIcon />, },
-  { name: 'WebDevSimplified', icon: <CodeIcon />, },
-  { name: 'Coding', icon: <CodeIcon />, },
-  { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
+  { name: 'Featured', icon: <TrendingUpIcon />, },
+  { name: 'Trending', icon: <WhatshotIcon />, },
+  { name: 'News', icon: <NewspaperIcon />, },
+  { name: 'Sports', icon: <FitnessCenterIcon />, },
+  { name: 'Fashion', icon: <CheckroomIcon />, },
   { name: 'Music', icon: <MusicNoteIcon /> },
   { name: 'Education', icon: <SchoolIcon />, },
   { name: 'Podcast', icon: <GraphicEqIcon />, },
   { name: 'Movie', icon: <OndemandVideoIcon />, },
   { name: 'Gaming', icon: <SportsEsportsIcon />, },
-  { name: 'Live', icon: <LiveTvIcon />, },
-  { name: 'Sport', icon: <FitnessCenterIcon />, },
-  { name: 'Fashion', icon: <CheckroomIcon />, },
   { name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
   { name: 'Comedy', icon: <TheaterComedyIcon />, },
   { name: 'Gym', icon: <FitnessCenterIcon />, },
-  { name: 'Crypto', icon: <DeveloperModeIcon />, },
+  { name: 'Crypto', icon: <PaidIcon />, },
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
@@ -42,6 +37,6 @@ export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
 // export const demoVideoTitle = 'Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI';
 export const demoChannelUrl = '/@LinusTechTips';
 export const demoVideoUrl = '/watch?v=bY4MTjVEtjE&ab_channel=LinusTechTips';
-export const demoVideoTitle = 'LTT video';
-export const demoChannelTitle = 'Shern Ning JS Mastery';
+export const demoVideoTitle = 'TSN Media';
+export const demoChannelTitle = 'TSN Media';
 export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png'

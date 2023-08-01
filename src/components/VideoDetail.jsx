@@ -35,7 +35,7 @@ const VideoDetail = () => {
             </Typography>
             <Stack direction="row" justifyContent="space-between" sx={{ color: "#fff" }} py={1} px={2} >
               <Link to={`/channel/${channelId}`}>
-                <Typography variant={{ sm: "subtitle1", md: 'h6' }}  color="#fff" >
+                <Typography variant={{ sm: "subtitle1", md: 'h6' }}  color="#fff" fontSize='19px' fontWeight='700'>
                   {channelTitle}
                   <CheckCircleIcon sx={{ fontSize: "12px", color: "gray", ml: "5px" }} />
                 </Typography>
@@ -51,8 +51,9 @@ const VideoDetail = () => {
             </Stack>
           </Box>
         </Box>
-        <Box px={2} py={{ xs: '5', md: '1'}} justifyContent="center" alignItems="center" color='#fff' >
-          Related Videos: <Videos videos={videos} direction="row" />
+        <Box px={2} py={{ xs: '5', md: '1'}} justifyContent="center" alignItems="center" color='#fff' variant='h6'>
+          Related Videos: 
+          <Videos videos={videos} direction="row" /> 
         </Box>
       </Stack>
     </Box>

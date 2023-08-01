@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Box, Stack, Typography } from '@mui/material';
 import {Sidebar, Videos} from '../components';
 import { fetchFromAPI } from '../utils/fetchFromAPI';
+import CopyrightIcon from '@mui/icons-material/Copyright';
 
 const Feed = () => {
 
-  const [selectedCategory, setSelectedCategory] = useState('New');
+  const [selectedCategory, setSelectedCategory] = useState('Featured');
   const [videos, setVideos] = useState([]);
 
   useEffect(() => {
@@ -19,7 +20,7 @@ const Feed = () => {
         <Sidebar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory}/>
 
         <Typography className='copyright' variant='body2' sx={{mt: 1.5, color: '#fff'}}>
-          Copyright 2023 SN
+          SN Copyright 2023 
         </Typography>
       </Box>
 
